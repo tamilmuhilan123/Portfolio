@@ -1,0 +1,8 @@
+.app-wrapper {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.app-wrapper.fade-in {
+  opacity: 1;
+}

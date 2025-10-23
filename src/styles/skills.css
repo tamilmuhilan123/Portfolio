@@ -1,0 +1,111 @@
+.skill-main{
+    width: 100%;
+    min-height: fit-content;
+    font-family: var(--font-family);
+    border: var(--border-color);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.skill-heading{
+    border: var(--border-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skill-heading p{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--color);
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.skills-main-types{
+    border: var(--border-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.skill-main-types-box{
+    border: 2px solid rgb(51, 50, 50);
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    flex-basis: 20%;
+    margin: 10px;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    cursor: pointer;
+    background-color: rgb(38, 37, 37);
+}
+.skill-main-types-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px grey;
+}
+.skill-main-types-box img{
+    width: 50px;
+}
+@keyframes motion{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.technology{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    color: grey;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:625px) {
+    .skill-heading p{
+        font-size: 30px;
+    }
+    .technology{
+        font-size: 11px;
+    }
+    .skill-main-types-box{
+        flex-basis: 25%;
+        flex-grow: 1;
+    }
+    /* .skills-main-types{
+        height: 400px;
+        overflow: scroll;
+        flex-direction: column;
+        border: 2px solid grey;
+        border-radius: 10px;
+    } */
+     .skill-main-types-box p{
+        font-size: 18px;
+     }
+}
+@media screen and (max-width:490px) {
+    .technology{
+        font-size: 13px;
+    }
+    .skill-heading p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:350px) {
+    .skill-main-types-box{
+        flex-direction: column;
+        gap: 5px;
+        font-size: 10px;
+    }
+}

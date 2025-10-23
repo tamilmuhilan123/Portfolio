@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Portfolio",
+        "description":"",
+        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","framer-motion","Preloader"],
+        "images":"",
+        "hostlink":""
+    },
+    {
+        "name":"Weather app",
+        "description":"",
+        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","API integration","Tailwind CSS"],
+        "images":"",
+        "hostlink":""
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Qr generator",
+        "description":"",
+        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","API integration","Tailwind CSS"],
+        "images":"",
+        "hostlink":""
+    },
+    {
+       "name":"BMI calculator",
+       "description":"",
+       "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","Tailwind CSS"],
+       "images":"",
+        "hostlink":""
+    },
+    {
+        "name":"Password generator",
+        "description":"",
+        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","Tailwind CSS"],
+        "images":"",
+        "hostlink":""
+    }
+]

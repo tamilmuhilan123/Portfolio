@@ -1,0 +1,106 @@
+*{
+    color: white;
+}
+.nav-main{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-family: var(--font-family);
+    /* flex-wrap: wrap; */
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 1s ease,transform 1s ease;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background: linear-gradient(90deg, rgb(3, 3, 31) 0%, rgba(3, 0, 0, 1) 50%, rgb(1, 2, 31) 100%);
+}
+.fade-in{
+    opacity: 1;
+    transform: translateX(0);
+}
+.logo{
+    border: var(--border-color);
+    font-size: 25px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo p{
+    cursor: pointer;
+    width: fit-content;
+    border: var(--border-color);
+    color: var(--color);
+    text-transform: uppercase;
+}
+.nav-items{
+    border: var(--border-color);
+    flex-basis: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    /* flex-basis: 16%; */
+    text-transform: capitalize;
+}
+li a:hover{
+    color: rgba(19, 255, 0, 1);
+    text-shadow: 0 0 20px rgba(19, 255, 0, 1);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    transition: 1s;
+}
+ul img{
+    cursor: pointer;
+    display: none;
+}
+.sidebar{
+    background-color: black;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    opacity: 1;
+    z-index: 1;
+    /* display: none; */
+    border: var(--border-color);
+    
+}
+@media screen and (max-width:830px) {
+    .logo{
+        flex-basis: 20%;
+    }
+    .nav-items{
+        flex-basis: 70%;
+    }
+}
+@media screen and (max-width:575px) {
+    ul li{
+        display: none;
+    }
+    ul img{
+        display: block;
+    }
+    .logo{
+        flex-basis: 70%;
+    }
+    .nav-items{
+        flex-basis: 20%;
+    }
+}
+@media screen and (max-width:450px) {
+    .logo{
+        flex-basis: 20%;
+    }
+    .nav-items{
+        flex-basis: 70%;
+        padding-left: 50px;
+    }
+}
