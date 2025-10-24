@@ -1,66 +1,66 @@
 [
     {
         "name":"HTML",
-        "image":"http://localhost:5173/html.png"
+        "image":"/html.png"
     },
     {
         "name":"CSS",
-        "image":"http://localhost:5173/css-3.png"
+        "image":"/css-3.png"
     },
     {
         "name":"JavaScript",
-        "image":"http://localhost:5173/js.png"
+        "image":"/js.png"
     },
     {
         "name":"React Js",
-        "image":"http://localhost:5173/science.png"
+        "image":"/science.png"
     },
     {
         "name":"Node Js",
-        "image":"http://localhost:5173/nodejs.png"
+        "image":"/nodejs.png"
     },
     {
         "name":"MongoDB",
-        "image":"http://localhost:5173/mongodb.png"
+        "image":"/mongodb.png"
     },
       {
         "name":"Express Js",
-        "image":"http://localhost:5173/express.png"
+        "image":"/express.png"
     },
     {
         "name":"Python",
-        "image":"http://localhost:5173/python.png"
+        "image":"/python.png"
     },
     {
         "name":"Git",
-        "image":"http://localhost:5173/git.png"
+        "image":"/git.png"
     },
     {
         "name":"GitHub",
-        "image":"http://localhost:5173/github.png"
+        "image":"/github.png"
     },
     {
         "name":"Figma",
-        "image":"http://localhost:5173/figma.png"
+        "image":"/figma.png"
     },
     {
         "name":"Postman",
-        "image":"http://localhost:5173/postman.png"
+        "image":"/postman.png"
     },
     {
         "name":"Powerpoint",
-        "image":"http://localhost:5173/powerpoint.png"
+        "image":"/powerpoint.png"
     },
     {
         "name":"Vscode",
-        "image":"http://localhost:5173/vscode.png"
+        "image":"/vscode.png"
     },
     {
         "name":"Canva",
-        "image":"http://localhost:5173/canva.png"
+        "image":"/canva.png"
     },
     {
         "name":"Tailwind CSS",
-        "image":"http://localhost:5173/tailwind.png"
+        "image":"/tailwind.png"
     }
 ]
