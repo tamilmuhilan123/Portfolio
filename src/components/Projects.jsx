@@ -11,11 +11,11 @@ const Projects = () => {
             <p>Frontend projects</p>
           </div>
         </div>
-        <div className="backend-projects">
+        {/* <div className="backend-projects">
           <div className="backend-projects-heading">
             <p>Backend projects</p>
           </div>
-        </div>
+        </div> */}
         {/* <div className="fullmernstack-projects">
           <div className="fullmernstack-projects-heading">
             <p>Full MERN Stack projects</p>

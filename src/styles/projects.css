@@ -9,6 +9,7 @@
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
+    font-family: var(--font-heading);
 }
 .project-heading p{
     color: var(--color);
@@ -34,6 +35,19 @@
     to{
         opacity: 1;
         scale: 1;
+    }
+}
+@media screen and (max-width:625px) {
+    .project-heading p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:490px) {
+    .project-heading p{
+        font-size: 20px;
+    }
+    .project-subheading{
+        font-size: 12px;
     }
 }
  

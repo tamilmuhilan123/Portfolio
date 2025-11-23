@@ -1,0 +1,204 @@
+.footer-main{
+    font-family: var(--font-family);
+    border: var(--border-color);
+    margin-bottom: 20px;
+}
+.footer-main-heading{
+    font-family: var(--font-heading);
+    border: var(--border-color);
+    text-align: center;
+    font-size: 40px;
+}
+.footer-main-heading p{
+    color: var(--color);
+    text-transform: uppercase;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.footer-main-subheading{
+    border: var(--border-color);
+    text-align: center;
+    padding: 10px;
+    line-height: 22px;
+     animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.footer-main-subheading p{
+    color: grey;
+}
+.footer-left{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    width: 100%;
+}
+.footer-right{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-left-right{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+     animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    flex-wrap: wrap;
+}
+.footer-left-heading{
+    border: var(--border-color);
+     animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.footer-left-heading p{
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+     animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    color: var(--color);
+}
+.footer-left-content{
+    /* margin: 20px; */
+    border: var(--border-color);
+    padding: 20px;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.footer-left-content p img{
+    width: 40px;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    
+}
+.footer-left-content p{
+    border: var(--border-color);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    margin-bottom: 10px;
+}
+.footer-left-content-para{
+    /* margin-left: 10px; */
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    width: 100%;
+}
+.footer-right-content{
+    border: var(--border-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 30vh; */
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    width: 100%;
+}
+.footer-right-content p{
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.textbox{
+    /* width: 100%; */
+    height: 12vh;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+::placeholder{
+    font-size: 15px;
+}
+.submitbutton{
+    border: var(--border-color);
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 50px;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+.submitbutton button{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--color);
+    border-radius: 10px;
+    border: 2px solid var(--color);
+    cursor: pointer;
+    width: 100%;
+}
+@media screen and (max-width:995px) {
+    .footer-left-right{
+        padding: 10px;
+    }
+    .footer-left{
+        padding: 10px;
+    }
+    .footer-right{
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width:890px) {
+    .footer-left-content{
+        padding: 10px;
+        margin: 10px;
+    }
+
+}
+@media screen and (max-width:790px) {
+    .footer-right{
+        flex-basis: 61%;
+    }
+}
+@media screen and (max-width:625px) {
+    .footer-main-heading p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:485px) {
+    .footer-right{
+        flex-basis: 100%;
+    }
+    .footer-left-content-para{
+        font-size: 12px;
+    }
+     .footer-main-heading p{
+        font-size: 20px;
+    }
+    .footer-main-subheading p{
+        font-size: 12px;
+    }
+}

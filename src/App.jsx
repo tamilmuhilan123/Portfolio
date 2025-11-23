@@ -6,6 +6,7 @@ import Preloader from "./components/Preloader"
 import "./styles/App.css"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
+import Footer from "./components/Footer"
 const App = () => {
   const [loading, setLoading] = useState(true);
   const [fadeIn, setFadeIn] = useState(false);
@@ -29,6 +30,7 @@ const App = () => {
       <About/>
       <Skills/>
       <Projects/>
+      <Footer/>
     </div>
   )
 }
