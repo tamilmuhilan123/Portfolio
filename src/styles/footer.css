@@ -182,6 +182,9 @@ input{
     .footer-right{
         flex-basis: 61%;
     }
+    .footer-left{
+        flex-basis: 61%;
+    }
 }
 @media screen and (max-width:625px) {
     .footer-main-heading p{
@@ -200,5 +203,8 @@ input{
     }
     .footer-main-subheading p{
         font-size: 12px;
+    }
+    .footer-left{
+        flex-basis: 100%;
     }
 }
