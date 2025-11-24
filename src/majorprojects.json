@@ -1,16 +1,16 @@
 [
+     {
+        "name":"Weather app",
+        "description":"A responsive React.js weather application that displays real-time weather data, 7-day forecast, sunrise/sunset times, and recent city searches using the WeatherAPI.",
+        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","API integration","Real time Forecasting","Tailwind CSS"],
+        "images":"/weatherapp.png",
+        "hostlink":"https://dt-weather-app.netlify.app"
+    },
     {
         "name":"Portfolio",
         "description":"",
         "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","framer-motion","Preloader"],
-        "images":"",
-        "hostlink":""
-    },
-    {
-        "name":"Weather app",
-        "description":"",
-        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","API integration","Tailwind CSS"],
-        "images":"",
-        "hostlink":""
+        "images":"/portfolio.png",
+        "hostlink":"https://developertamil.netlify.app"
     }
 ]

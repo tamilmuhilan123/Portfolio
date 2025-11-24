@@ -1,23 +1,23 @@
 [
     {
         "name":"Qr generator",
-        "description":"",
+        "description":"A Qr Code Generator built using React.js, Tailwind CSS, and integrated with API calls to dynamically generate QR codes for any link you provide!",
         "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","API integration","Tailwind CSS"],
-        "images":"",
-        "hostlink":""
+        "images":"/qrcodegenerator.png",
+        "hostlink":"https://dtqrgenerator.netlify.app"
     },
     {
        "name":"BMI calculator",
-       "description":"",
+       "description":"Understanding BMI is essential for tracking personal health, and I wanted to create a tool that's not only accurate and fast but also responsive across devices.",
        "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","Tailwind CSS"],
-       "images":"",
-        "hostlink":""
+       "images":"/bmicalculator.png",
+        "hostlink":"https://dtbmicalculator.netlify.app"
     },
     {
         "name":"Password generator",
-        "description":"",
+        "description":"Random Password Generator is a simple and responsive web application built with React and styled using Tailwind CSS. It allows users to generate secure, customizable passwords instantly.",
         "tech-used":["HTML","CSS","JavaScript","React Js","Vite Js","Tailwind CSS"],
-        "images":"",
-        "hostlink":""
+        "images":"/passwordgenerator.png",
+        "hostlink":"https://dt-passwordgiver.netlify.app"
     }
 ]

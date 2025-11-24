@@ -1,53 +1,286 @@
-.project-main{
+.project-main {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: var(--font-family);
     border: var(--border-color);
 }
-.project-heading{
+
+.project-heading {
     border: var(--border-color);
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     font-family: var(--font-heading);
 }
-.project-heading p{
+
+.project-heading p {
     color: var(--color);
     margin-bottom: 10px;
     animation: projectani linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-.project-subheading{
+
+.project-subheading {
     width: 100%;
     text-align: center;
     color: grey;
-     animation: projectani linear;
+    animation: projectani linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     line-height: 25px;
 }
-@keyframes projectani{
-    from{
+
+@keyframes projectani {
+    from {
         opacity: 0;
         scale: 0.5;
     }
-    to{
+
+    to {
         opacity: 1;
         scale: 1;
     }
 }
+
 @media screen and (max-width:625px) {
-    .project-heading p{
+    .project-heading p {
         font-size: 30px;
     }
 }
+
 @media screen and (max-width:490px) {
-    .project-heading p{
+    .project-heading p {
         font-size: 20px;
     }
-    .project-subheading{
+
+    .project-subheading {
         font-size: 12px;
     }
 }
- 
+
+.mini-projects-heading {
+    border: var(--border-color);
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.mini-projects-heading p {
+    color: var(--color);
+    animation: motion linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.miniproject-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    justify-content: space-around;
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.miniproject-projects::-webkit-scrollbar {
+    display: none;
+}
+
+.project-cards,
+.main-project-cards {
+    flex: 0 0 auto;
+    width: 330px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    justify-content: space-around;
+    height: fit-content;
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.project-image {
+    width: 100%;
+    /* border: 2px solid white; */
+    padding: 5px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 250px;
+}
+
+.project-livedemo {
+    border: var(--border-color);
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.onlinebtn {
+    font-weight: 600;
+}
+
+.project-livedemo button {
+    background-color: var(--color);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.project-livedemo button:hover {
+    transform: scale(1.01);
+}
+
+.project-livedemo button:active {
+    transform: scale(0.9);
+}
+
+.project-livedemo button a {
+    color: black;
+    font-weight: 600;
+}
+
+.project-description {
+    border: var(--border-color);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.project-description p {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.project-tech {
+    border: var(--border-color);
+}
+
+.project-tech ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-tech ul li {
+    padding: 10px;
+}
+
+.project-tech ul li button {
+    background-color: rgb(47, 47, 47);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+
+.main-projects {
+    min-height: 500px;
+}
+
+.main-projects-heading {
+    border: var(--border-color);
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.main-projects-heading p {
+    color: var(--color);
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.main-project-image img {
+    width: 100%;
+}
+
+@keyframes anime {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.slider-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.slider-btns button {
+    background-color: var(--color);
+    border: 2px solid black;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.2s;
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+
+.slider-btns button:hover {
+    transform: scale(1.1);
+}
+
+.slider-btns button:active {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:995px) {
+
+    .project-cards,
+    .main-project-cards {
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:585px) {
+    .project-cards,
+    .main-project-cards {
+        flex-basis: 100%;
+    }
+    .mini-projects-heading,
+    .main-projects-heading{
+        text-align: center;
+    }
+    .project-tech{
+        display: none;
+    }
+    .project-description p {
+        font-size: 11px;
+    }
+}

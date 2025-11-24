@@ -150,7 +150,6 @@ input{
 }
 .submitbutton button{
     padding: 10px;
-    color: black;
     font-size: 20px;
     font-weight: 500;
     background-color: var(--color);
@@ -158,6 +157,18 @@ input{
     border: 2px solid var(--color);
     cursor: pointer;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submitbutton button:hover{
+    transform: scale(1.01);
+}
+.submitbutton button:active{
+    transform: scale(1);
+}
+.submitbutton button p{
+    color: black;
+    padding-right: 10px;
 }
 @media screen and (max-width:995px) {
     .footer-left-right{

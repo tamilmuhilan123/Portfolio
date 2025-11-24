@@ -20,7 +20,7 @@ const About = () => {
         <div className="about-main-secondchild-content">
           <div className="college">
             <p className="education-name">B.Tech AIDS</p>
-            <p>Nandha Engineering College</p>
+            <p>Nandha Engineering College (Autonomous)</p>
             <p><img src={calenderimg}/> 2022-2026</p>
           </div>
           <div className="hsc">

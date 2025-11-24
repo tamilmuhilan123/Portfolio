@@ -39,6 +39,7 @@
     border: var(--border-color);
     color: var(--color);
     text-transform: uppercase;
+    font-family: var(--font-heading);
 }
 
 .nav-items {
