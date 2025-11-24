@@ -1,6 +1,6 @@
-# 🚀 Personal Portfolio — YOUR_NAME
+# 🚀 Personal Portfolio — Tamil muhilan
 
-**Live demo:** LIVE_DEMO_URL · **Source:** GITHUB_REPO_URL
+**Live demo:** developertamil.netlify.app · **Source:** GITHUB_REPO_URL
 
 A modern, responsive personal portfolio site built with **React + Vite**. Includes animated sections using **Framer Motion**, clean CSS, and accessible components — ideal for showcasing projects, skills, and contact information.
 
@@ -29,3 +29,11 @@ A modern, responsive personal portfolio site built with **React + Vite**. Includ
    ```bash
    git clone GITHUB_REPO_URL
    cd repo-folder
+2.install deps
+   ```bash
+      npm install
+3.Start dev server
+   npm run dev
+4.Build for production
+   npm run build
+
