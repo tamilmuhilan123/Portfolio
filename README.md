@@ -1,12 +1,31 @@
-# React + Vite
+# 🚀 Personal Portfolio — YOUR_NAME
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** LIVE_DEMO_URL · **Source:** GITHUB_REPO_URL
 
-Currently, two official plugins are available:
+A modern, responsive personal portfolio site built with **React + Vite**. Includes animated sections using **Framer Motion**, clean CSS, and accessible components — ideal for showcasing projects, skills, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- ✅ Built with React + Vite for fast dev & production builds  
+- 🎨 Smooth animations with Framer Motion  
+- ♿ Accessible and responsive design (mobile-first)  
+- 📁 Projects section with links to live demos & GitHub repos  
+- ✉️ Contact form (client-side validations + sample integration)  
+- 🧩 Reusable components and clean folder structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **Framework:** React (Vite)  
+- **Animations:** Framer Motion  
+- **Styling:** HTML, CSS (Flexbox / Grid / Media queries)  
+- **Extras:** Simple JS utilities, react-router (if used), font icons
+
+---
+
+## 🚀 Quick start (run locally)
+1. Clone the repo  
+   ```bash
+   git clone GITHUB_REPO_URL
+   cd repo-folder
